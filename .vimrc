@@ -17,6 +17,7 @@ set nu
 set ttyfast
 set mouse=a
 set ttymouse=xterm2
+set colorcolumn=81
 
 autocmd FileType perl set makeprg=perl\ -c\ %\ $*
 autocmd FileType perl set errorformat=%f:%l:%m
