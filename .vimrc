@@ -21,6 +21,9 @@ set ttymouse=xterm2
 highligh ColorColumn ctermbg=magenta
 call matchadd('ColorColumn', '\%81v', 100)
 
+exec "set listchars=tab:>~,trail:\uB7,nbsp:~"
+set list
+
 autocmd FileType perl set makeprg=perl\ -c\ %\ $*
 autocmd FileType perl set errorformat=%f:%l:%m
 autocmd FileType perl set autowrite
