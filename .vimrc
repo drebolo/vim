@@ -17,6 +17,8 @@ set nu
 set ttyfast
 set mouse=a
 set ttymouse=xterm2
+set cursorline
+set cursorcolumn
 
 highligh ColorColumn ctermbg=magenta
 call matchadd('ColorColumn', '\%81v', 100)
