@@ -31,5 +31,16 @@ autocmd FileType perl set errorformat=%f:%l:%m
 autocmd FileType perl set autowrite
 autocmd BufNewFile * silent! 0r ~/.vim/skeleton/template.%:e
 
+
 au BufNewFile,BufRead process set filetype=perl
 execute pathogen#infect()
+
+set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
+
+" Always show statusline
+set laststatus=2
+
+" Use 256 colours (Use this setting only if your terminal supports 256 colours)
+set t_Co=256
+
+nnoremap <F5> :GundoToggle<CR>
