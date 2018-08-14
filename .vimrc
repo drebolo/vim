@@ -88,3 +88,6 @@ let g:airline_theme='luna'
 " let g:airline_theme='powerlineish'
 " let g:airline_solarized_bg='dark'
 let g:airline#extensions#tabline#enabled = 1
+
+" check spell
+set spell spelllang=en_gb
